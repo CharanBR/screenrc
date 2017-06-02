@@ -8,3 +8,4 @@ PROMPT_COMMAND is not properly set in my .bashrc profile due to which I have to 
 3. F3 key will go to previous window
 4. F4 key will go to next window.
 5. hardstatus is set to show window titles at the bottom.
+6. Escape key changed to C-j for users using emac style command prompt/emacs.
