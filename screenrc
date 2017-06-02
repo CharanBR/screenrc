@@ -4,5 +4,5 @@ defhstatus "screen ^E (^Et) | $USER@^EH"
 hardstatus alwayslastline
 stuff 'printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"^L^M'
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c%{g}]'
-bindkey "^[[11~" source /home/chramir/.screenrc
+bindkey "^[[11~" source /home/charanbr/.screenrc
 bindkey "^[[12~" windowlist -b
