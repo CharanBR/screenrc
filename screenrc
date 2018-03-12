@@ -6,3 +6,6 @@ stuff 'printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c%{g}]'
 bindkey "^[[11~" source /home/charanbr/.screenrc
 bindkey "^[[12~" windowlist -b
+bindkey "^[[13~" prev
+bindkey "^[[14~" next
+bindkey "^[[15~" stuff 'export TERM=xterm^L^M'
